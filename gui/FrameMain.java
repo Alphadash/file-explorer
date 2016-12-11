@@ -105,7 +105,6 @@ public class FrameMain extends JFrame
 		table = new JTable();
 		table.setShowGrid(false);
 		table.setFillsViewportHeight(true);
-		table.setAutoCreateRowSorter(true);
 		table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		table.setModel(rootTableModel = new DefaultTableModel(
 				new String[][] {
